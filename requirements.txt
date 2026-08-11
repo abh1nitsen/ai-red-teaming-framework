@@ -1,0 +1,24 @@
+# AI Red Teaming Framework -- Python Dependencies
+# Project 3 of 4 -- AI Governance Portfolio
+# Author: Abhinit Sen | github.com/abh1nitsen
+#
+# Install: pip install -r requirements.txt
+#
+# Python 3.9 or later required.
+# All packages are free and open source.
+
+# Groq API client -- LLM provider for target and judge models
+groq>=0.28.0
+
+# YAML config loading
+PyYAML>=6.0
+
+# Coloured terminal output for the live red team assessment display
+colorama>=0.4.6
+
+# Testing framework
+pytest>=8.0.0
+pytest-cov>=5.0.0
+
+# Note: No LangChain, no LlamaIndex, no vector database.
+# This framework is intentionally dependency-light.

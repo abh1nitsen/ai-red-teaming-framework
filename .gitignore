@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+*.env.local
+
+# Reports (generated at runtime, not committed)
+reports/*.json
+reports/*.html
+
+# Data
+data/*.csv
+data/*.json
+
+# Notebooks (checkpoints)
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

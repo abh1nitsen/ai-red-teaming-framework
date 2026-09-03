@@ -9,7 +9,7 @@
 
 This framework red-teams a language model: it deliberately attacks the model with adversarial prompts across six categories of governance failure, scores each attack using a second "judge" model, and produces a robustness report that a risk committee can act on.
 
-A red team assessment answers a question that standard benchmarks do not: **is this specific model safe to deploy in this specific regulated context?**
+A red team assessment answers a question that standard benchmarks do not: "is this specific model safe to deploy in this specific regulated context?"
 
 This framework is written for the Indian regulatory context -- SEBI, RBI, IRDAI, the DPDP Act, the IT Act, and Indian-specific bias dimensions (caste, regional origin, linguistic discrimination). Generic red teaming tools do not test these. This one does.
 

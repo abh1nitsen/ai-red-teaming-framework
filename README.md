@@ -11,7 +11,7 @@ This framework red-teams a language model: it deliberately attacks the model wit
 
 A red team assessment answers a question that standard benchmarks do not: "is this specific model safe to deploy in this specific regulated context?"
 
-This framework is written for the Indian regulatory context -- SEBI, RBI, IRDAI, the DPDP Act, the IT Act, and Indian-specific bias dimensions (caste, regional origin, linguistic discrimination). Generic red teaming tools do not test these. This one does.
+This framework is written for the Indian regulatory context - SEBI, RBI, IRDAI, the DPDP Act, the IT Act, and Indian-specific bias dimensions (caste, regional origin, linguistic discrimination). Generic red teaming tools do not test these. This one does.
 
 ---
 
